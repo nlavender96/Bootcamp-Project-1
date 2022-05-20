@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-!(Diagrams/network-diagram.png)
+![Network Diagram](Diagrams/network-diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the elk-install.yml file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -68,7 +68,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-!(Diagrams/docker-ps-output.png)
+![Docker Output](Diagrams/docker-ps-output.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -92,3 +92,4 @@ SSH into the control node and follow the steps below:
 -   nano /etc/ansible/hosts
 - Run the playbook, and navigate to <20.211.185.112:5601/app/kibana> to check that the installation worked as expected.
 -   ansible-playbook /etc/ansible/elk-install.yml
+
